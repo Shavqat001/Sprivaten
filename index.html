@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprivaten</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="page__body">
+    <div class="visually-hidden">
+        <svg>
+            <symbol id="search-icon" viewBox="0 0 24 24" fill="none">
+                <path fill="currentColor" fill-rule="evenodd"
+                    d="m17.2 15.5 6.4 6.4a1.2 1.2 0 1 1-1.7 1.7l-6.4-6.4a9.6 9.6 0 1 1 1.7-1.7Zm-7.6 1.3a7.2 7.2 0 1 0 0-14.4 7.2 7.2 0 0 0 0 14.4Z"
+                    clip-rule="evenodd" />
+            </symbol>
+            <symbol id="basket-icon" viewBox="0 0 24 23" fill="none">
+                <g fill="currentColor" clip-path="url(#a)">
+                    <path
+                        d="M8 22.4a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2ZM19.2 22.4a1.6 1.6 0 1 0 0-3.2 1.6 1.6 0 0 0 0 3.2ZM22.4 4H4.7L4 .6a.8.8 0 0 0-.8-.6H0v1.6h2.5L5.6 17a.8.8 0 0 0 .8.6h14.4V16H7.1l-.7-3.2h14.4a.8.8 0 0 0 .8-.6L23.2 5a.8.8 0 0 0-.8-1Zm-2.2 7.2H6L5 5.6h16.4l-1.2 5.6Z" />
+                </g>
+                <defs>
+                    <clipPath id="a">
+                        <path fill="currentColor" d="M0 0h24v22.4H0z" />
+                    </clipPath>
+                </defs>
+            </symbol>
+            <symbol id="filter-icon" viewBox="0 0 24 14" fill="none">
+                <path fill="currentColor" d="M1 0h22v2H1V0Zm5 6h17v2H6V6Zm7 5h10v3H13v-3Z" />
+            </symbol>
+        </svg>
+    </div>
+
+    <header class="page-header">
+        <div class="menu">
+            <a class="page-header__main-link" href="">sprivaten</a>
+            <svg class="search-icon" width="24" height="24">
+                <use xlink:href="#search-icon"></use>
+            </svg>
+            <svg class="basket-icon" width="24" height="23">
+                <use xlink:href="#basket-icon"></use>
+            </svg>
+            <svg class="filter-icon" width="24" height="14">
+                <use xlink:href="#filter-icon"></use>
+            </svg>
+        </div>
+        <nav class="page-navigation">
+            <ul class="navigation-list">
+                <li class="navigation-items"><a href="">home</a></li>
+                <li class="navigation-items"><a href="">product</a></li>
+                <li class="navigation-items"><a href="">pricing</a></li>
+                <li class="navigation-items"><a href="">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <h1 class="visually-hidden">Welcome</h1>
+        <section class="digital-technology">
+            <div class="content drive-more-customers-through-digital">
+                <h2 class="digital-technology__title">
+                    Drive More <br>
+                    Customers <br>
+                    Through Digital
+                </h2>
+                <p class="digital-technology__description">
+                    We know how large objects will act, but things on a
+                    small scale.
+                </p>
+                <a class="digital-technology__link-button" href="#">get Quote Now</a>
+                <a class="digital-technology__link-button" href="#">Learn more</a>
+            </div>
+
+            <form class="content digital-technology__form" action="#">
+                <h3 class="form-title">book appointment</h3>
+                <label class="form-label">name</label>
+                <input class="form-input form-input-text" placeholder="Full Name" type="text">
+
+                <label class="form-label">email</label>
+                <input class="form-input form-input-email" placeholder="example@gmail.com" type="email" name="" id="">
+
+                <label class="form-label">department</label>
+                <select class="form-select">
+                    <option value="">please select</option>
+                </select>
+
+                <label class="form-label">time</label>
+                <select class="form-select">
+                    <option value="">4:00 available</option>
+                </select>
+                <a class="form-button-link" href="#">book appointment</a>
+            </form>
+        </section>
+
+
+    </main>
+</body>
+
+</html>

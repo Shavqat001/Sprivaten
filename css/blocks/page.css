@@ -1,0 +1,9 @@
+.page {
+    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
+    color: var(--text-color);
+    text-transform: capitalize;
+}
+.content {
+    margin: 0 auto;
+}
